@@ -148,6 +148,7 @@ span{
   width: 80%;
   letter-spacing: 1px;
   line-height: 1.7;
+  opacity: 0;
 }
 
 #How-we-work h4{
@@ -158,6 +159,7 @@ span{
   font-weight: 600;
   padding: 10px;
   text-align: left;
+
 }
 
 #How-we-work p{
@@ -180,7 +182,7 @@ span{
   margin-top: 30px;
   text-align: left;
   text-decoration:none;
-  transition: all 1s
+  transition: all 1s;
 }
 
 #How-we-work a:hover{
@@ -202,6 +204,7 @@ span{
   background-size: cover;
   overflow: hidden;
   position: relative;
+  opacity: 0
 }
 .container2 h5{
   float: left;
@@ -266,6 +269,7 @@ span{
   margin-bottom: 70px;
   width: 80%;
   letter-spacing: 1px;
+  opacity: 0;
 }
 
 .card1{
@@ -276,6 +280,7 @@ span{
   background: #cd7399;
   color: white;
   text-align: center;
+  opacity: 0
 }
 
 .card2{
@@ -286,6 +291,7 @@ span{
   background: #e8bc6f;
   color: white;
   text-align: center;
+  opacity: 0;
 }
 
 .card3{
@@ -296,6 +302,7 @@ span{
   background: #b78bcf;
   color: white;
   text-align: center;
+  opacity: 0;
 }
 
 .classimg img{
@@ -339,7 +346,8 @@ span{
   background: linear-gradient( 118deg,#cd7399, rgba(109, 213, 237, 0.52),transparent), url("../img/customer.jpg") 50% 0 repeat fixed;
   background-size: cover;
   height: auto;
-  opacity: 0.6;
+  opacity: 0;
+
 }
 
 .table {
@@ -357,7 +365,10 @@ span{
   margin-bottom: 70px;
   width: 80%;
   letter-spacing: 1px;
+}
 
+.card{
+  opacity: 0;
 }
 .card h4{
   font-family: "Raleway", sans-serif;
@@ -377,6 +388,10 @@ span{
 .card-header3{
   background: #b78bcf;
 }
+.Timetable{
+  opacity: 0;
+}
+
 .price{
   margin-top: 10px;
 }
@@ -423,11 +438,13 @@ span{
   height: auto;
   opacity: 0.5;
   margin-top: 50px;
+  visibility: hidden;
 }
 
 .service-icon{
   text-align: center;
 }
+
 .service-icon i{
   font-size: 50px;
   margin-bottom: 10px;
@@ -454,9 +471,9 @@ span{
   height: 200px;
   position: absolute;
   text-align: center;
-  width: 85.3%;
+  width: 85.4%;
   padding-top: 45px;
-  top: 64%;
+  top: 66%;
 }
 .address h2{
   margin-top: 11px;
@@ -473,6 +490,7 @@ h4{
   text-transform: uppercase;
   font-weight: lighter;
 }
+
 .address{
   border: 27px solid #fff;
   padding-bottom: 90px;
@@ -484,6 +502,9 @@ h4{
   border-radius: 2px;
 }
 
+.contact, .contact_address{
+  visibility: hidden;
+}
 .contact-form{
  background: #fff none repeat scroll 0 0;
  padding: 30px;
@@ -510,6 +531,7 @@ footer{
   padding: 80px;
   justify-content: center;
   transition: all 1s;
+  opacity: 0;
 }
 .social-media-icons i{
   width: 50px;
@@ -812,13 +834,13 @@ footer{
   }
   .box{
     top: 67%;
-    left: 4%;
+    left: 2%;
   }
   .card1, .card2, .card3{
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .card{
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .Card-body {
     width: 77.5%;
